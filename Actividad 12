@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int num1 = 1, den1 = 3;
+    int num2 = 3, den2 = 5;
+    int num3 = 1, den3 = 30; 
+    int num4 =23,den4 = 30;
+    int mcd = 30;
+    int num1_adj = num1 * (mcd / den1);
+    int num2_adj = num2 * (mcd / den2);
+    int num3_adj = num3 * (mcd / den3);
+    int num_result = num1_adj + num2_adj + num3_adj;
+    int den_result = mcd;
+    double des_den=(double)num4/den4;
+    printf("23/30:%f\n",des_den);
+    double decimal_result = (double)num_result / den_result;
+    printf("29/30: %.4f\n", decimal_result);
+    double r_f=(double)des_den/decimal_result;
+    printf("0.9768%d\n");
+
+    return 0;
+}
