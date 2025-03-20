@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    float horasTrabajadas, precioHora, salario;
+
+    // Entrada de datos
+    printf("Ingrese las horas trabajadas en la semana: ");
+    scanf("%f", &horasTrabajadas);
+    printf("Ingrese el precio por hora: ");
+    scanf("%f", &precioHora);
+
+    // Cálculo del salario
+    if (horasTrabajadas <= 40) {
+        salario = horasTrabajadas * precioHora;
+    } else {
+        salario = (40 * precioHora) + ((horasTrabajadas - 40) * (precioHora * 1.5));
+    }
+
+    // Mostrar el resultado
+    printf("El salario semanal es: %.2f\n", salario);
+
+    return 0;
+}
