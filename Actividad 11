@@ -1,0 +1,14 @@
+#include <cstdio>
+
+int main() {
+    int calificacion;
+    
+    printf("Ingresa la calificacion del examen: ");
+    scanf("%d", &calificacion);
+
+    if (calificacion >= 8) {
+        printf("¡Felicidades aprobaste el curso!\n");
+    }
+
+    return 0;
+}
