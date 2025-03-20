@@ -1,0 +1,28 @@
+#include  <stdio.h>
+#include  <stdlib.h>
+int main (){
+int vector[10];
+vector[0]=10;
+printf("vector vale0=%d\n",vector[0]);
+vector[1]=10;
+printf("vector vale1=%d\n",vector[1]);
+vector[2]=10;
+printf("vector vale2=%d\n",vector[2]);
+vector[3]=10;
+printf("vector vale3=%d\n",vector[3]);
+vector[4]=10;
+printf("vector vale4=%d\n",vector[4]);
+vector[5]=10;
+printf("vector vale5=%d\n",vector[5]);
+vector[6]=10;
+printf("vector vale6=%d\n",vector[6]);
+vector[7]=10;
+printf("vector vale7=%d\n",vector[7]);
+vector[8]=10;
+printf("vector vale8=%d\n",vector[8]);
+vector[9]=10;
+printf("vector vale9=%d\n",vector[9]);
+system("Pause");
+
+return 0;
+}
